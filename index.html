@@ -8,9 +8,9 @@
     <title>My City Profile</title>
     <style>
         /*===Temp===*/
-        .division {
+       /* .division {
             background-color: darkgray;
-        }
+        }*/
 
         /*======Positioning======*/
         h1 {
@@ -42,8 +42,27 @@
             margin: 1em;
         }
 
-        table, th, td {
+        .footer_content {
+            height: 20em;
+            flex: 1;
+            padding: 1em;
+            margin: 1em;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
+        }
+
+        .historical_description {
+            float: left;
+            display: inline;
+        }
+
+        .historical_place {
+            float: right;
+            display: inline;
         }
 
         /*.clearfix {
@@ -61,18 +80,18 @@
 
 <body>
     <div class="content">
-        <div class="header_content division">
+        <div class="header_content">
             <br><br><br><br><br><br>
             <h1>PURURU JACKSON MPHAHLELE</h1>
         </div>
 
-        <div class="header_content image division">
+        <div class="header_content image">
             <img src="IMG-1597.jpg" width="300">
         </div>
     </div>
 
     <div class="content">
-        <div class="body_content image division">
+        <div class="body_content image">
             <h2>Cape Town</h2>
             <img src="CapeTown.jpg" width="350">
         </div>
@@ -87,7 +106,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="body_content">
         <h2>Swahili</h2>
         <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -115,8 +134,70 @@
             </tr>
         </table>
     </div>
+
+    <div>
+        <h2> &nbsp &nbsp &nbsp Historic Places</h2>
     </div>
 
+    <div class="content">
+        <div class="footer_content">
+            <h3>Mapungubwe</h3>
+            <div style="width: 450px">
+                <img src="Mapungubwe.jpg" width="300" style="float: right;">
+                Mapungubwe means "Hill of the Jackals" and it was the first state in the whole of Southern Africa, this
+                is after Mapungubwe had discovered itself as a kingdom.
+                The civilization that was taking place in the area, the opportunities, the rule of law, the bureaucracy
+                was visible in the area.
+                From about 1220 to 1300 Mapungubwe was an advanced trading centre and its inhabitants traded with
+                Arabia,
+                China and India through the East African harbours. The city could trade because it was so close to the
+                Limpopo River,
+                which connected it with the coast. They exchanged salt, cattle, fish, gold and iron, ivory, wood,
+                freshwater snail and mussel shells,
+                chert and ostrich eggshell beads were used for glass beads and cloth.
+                <!--</div>
+            <div class="historical_place">
+                <img src="Mapungubwe.jpg" width="200" style="float: right;">
+            -->
+            </div>
+
+        </div>
+
+        <div class="footer_content">
+            <h3>Makapansgat Caves</h3>
+            <div style="width: 450px">
+                <img src="Makapansgat.jpg" width="200" style="float: right;">
+                Makapansgat or Makapan Valley world heritage site has many important archaeological findings dating to
+                between 2.6 and 3 million years ago. What is particularly interesting about this site is the famous
+                “Makapansgat Pebble”.
+                It's suggested to date back to 3 million BCE and is shaped to resemble a human face. It has been
+                suggested
+                that this pebble
+                represents the earliest known example of symbolic thinking of early hominids.The cave is where the clash
+                between a Boer Commando
+                and local Langa and Kekana people took place, after the murders of Voortrekkers at Moorddrift, Mapela
+                and
+                Pruizen.
+                Chief Makapan (Mokopane), together with a large number of his tribespeople and their cattle were
+                besieged in
+                the cave for nearly a
+                month between 25 October and 21 November 1854, during which time many hundreds died of hunger and
+                thirst.
+            </div>
+        </div>
+
+        <div class="footer_content">
+            <h3>Bakone Malapa Museum</h3>
+            <div style="width: 450px">
+                <img src="BakoneMalapa.jpg" width="200" style="float: right;">
+                The Bakone are a sub-group of the Northern Sotho Cultural group.
+                The Cultural Village has been reconstructed in a style that was typical about 250 Years ago.
+                The BaSotho, who live in the village, teach tourists how they make fire, brew beer and ground maize.
+                They also have handcraft demonstrations such as woodcarving, pottery, basketry and beadwork. These
+                crafts are sold at a craft shop locally at a reasonable price.
+            </div>
+        </div>
+    </div>
 
 </body>
 
