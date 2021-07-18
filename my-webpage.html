@@ -8,11 +8,17 @@
     <title>My City Profile</title>
     <style>
         /*===Temp===*/
-        .division {
+        /*.division {
             background-color: darkgray;
-        }
+        }*/
 
         /*======Positioning======*/
+        * {
+            font-family: 'Lato', Helvetica, sans-serif;
+            color: #333447;
+            /*line-height: 1.5;*/
+        }
+
         h1 {
             text-align: center;
         }
@@ -94,10 +100,12 @@
 </head>
 
 <body>
-    <ul>
-        <li><a href="index.html"></a>Home</li>
-        <li><a href="webpage-grid.html">My basic webpage using Simple Grid</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a> &nbsp &nbsp &nbsp
+            <a href="webpage-grid.html">My basic webpage using Simple Grid</a>
+        </ul>
+    </nav>
     <div class="content">
         <div class="header_content division">
             <br><br><br><br><br><br>
@@ -132,7 +140,7 @@
         <div>
             I would like to learn Swahili because it is spoken in most African countries I'd like to visit one day.
         </div>
-        <table style="width: 100%;">
+        <table style="width: 100%; margin-top: 0.5em;">
             <tr>
                 <th>Swahili Phrase</th>
                 <th>English Translation</th>
