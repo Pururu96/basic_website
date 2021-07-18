@@ -12,17 +12,33 @@
             color: #333447;
             /*line-height: 1.5;*/
         }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        .menu a {
+            align-content: center;
+        }
+
+        .menu a:hover {
+            background-color: grey;
+        }
     </style>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="my-webpage.html">My basic webpage using plain HTML</a></li>
-            <li><a href="webpage-grid.html">My basic webpage using Simple Grid</a></li>
-        </ul>
-    </nav>
-    
+
+    <ul class="menu center">
+        <a href="my-webpage.html">My basic webpage using plain HTML</a> &nbsp &nbsp &nbsp
+        <a href="webpage-grid.html">My basic webpage using Simple Grid</a>
+    </ul>
+
 </body>
 
 </html>
